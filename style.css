@@ -13,7 +13,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+    background-image: linear-gradient(to right top, #c9d819, #00d56f, #00c3c6, #00a5fa, #127aeb);
 }
 
 .calculator{
@@ -48,10 +48,12 @@ button{
     height: 60px;
     margin: 10px;
     border-radius: 50%;
-    background: transparent;
+    background: #127aeb;
     color: #ffffff;
     font-size: 20px;
     box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+
     cursor: pointer;
 }
 
